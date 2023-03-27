@@ -1,0 +1,130 @@
+.parte1-bg {
+    background-color: black;
+}
+
+.parte1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+    margin: 0 auto;
+    padding: 0 30px;
+    position: relative;
+}
+
+/* .parte1 img {
+    border-left: 2px solid orangered;
+    padding-left: 20px;
+} */
+
+/* .detalhe-parte1 {
+    height: 200px;
+    border-right: 1px solid orange;
+    position: relative;
+    left: 10px;
+    
+
+} */
+
+.parte1-conteudo {
+    border-right: 2px solid orangered;
+    padding-right: 30px;
+}
+
+.parte1-imagem {
+    margin-bottom: -100px;
+}
+
+.parte1-conteudo {
+    align-self: end;
+    padding-bottom: 70px;
+}
+
+.parte1 h1 {
+    margin-bottom: 40px;
+}
+
+.parte1 p {
+    margin-bottom: 20px;
+}
+
+.parte1 img {
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.efeito-vazado {
+    height: 120px;
+
+}
+
+.parte2-bg {
+    background-color: rgb(27, 27, 27);
+    box-shadow: inset 0 80px white, inset 0 -80px white;
+}
+
+.parte2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.parte2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.parte2-conteudo {
+    padding-top: 160px;
+    padding-bottom: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.parte2-conteudo>span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.parte2-conteudo h2 {
+    margin-bottom: 30px;
+}
+
+
+.parte2-conteudo a {
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    color: orangered;
+    font-size: 22px;
+    position: relative;
+}
+
+.parte2-conteudo a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: orangered;
+    width: 100%;
+    position: absolute;
+    margin-top: 1px;
+}
+
+.pad30 {
+    padding-bottom: 30px;
+}
+
+.parte2-icones {
+    display: flex;
+    gap: 40px;
+
+}
+
+.parte2-icones h3 {
+    margin-bottom: 7px;
+}
+
+.parte2-icones p {
+    margin-bottom: 9px;
+}

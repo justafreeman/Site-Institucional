@@ -1,0 +1,41 @@
+.servicos-lista {
+    padding: 60px 0px;
+    display: inline-block;
+}
+
+.servicos-lista-itens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    box-shadow: 10 1 0px gray; 
+    
+}
+
+.servicos-lista h2 {
+    margin-bottom: 40px;
+    padding: 0 20px;
+
+}
+
+.servicos-lista-itens a {
+    display: block;
+
+}
+
+.servicos-lista-itens li {
+    min-width: 300px;
+    max-width: 570px;
+}
+
+.servicos-lista-itens img {
+    margin-bottom: 20px;
+}
+
+.servicos-lista-itens h3 {
+    margin-bottom: 10px;
+}
+

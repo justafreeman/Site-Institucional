@@ -1,61 +1,86 @@
-body {
-    margin: 0px;
-}
 
 
-ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
 
-a {
-    text-decoration: none;
-}
-
-.header-background {
+.parte1-bg {
     background-color: black;
-}
-
-.header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    margin: auto auto;
-    gap: 20px;
-}
-
-.img-fenix {
-    width: 30%;
-    margin-left: 40px;
-    position: relative;
-}
-
-.navegacao a {
     color: white;
-    font-size: large;
-    display: inline;
+}
+
+.parte1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+    margin: 0 auto;
+    padding: 0 30px;
     position: relative;
 }
 
-.navegacao a::after {
-content: "";
-display: block;
-height: 2px;
-background-color: white;
-width: 0%;
-transition: 0.4s;
-position: absolute;
+/* .parte1 img {
+    border-left: 2px solid orangered;
+    padding-left: 20px;
+} */
+
+/* .detalhe-parte1 {
+    height: 200px;
+    border-right: 1px solid orange;
+    position: relative;
+    left: 10px;
+    
+
+} */
+
+.parte1-conteudo {
+    border-right: 2px solid orangered;
+    padding-right: 30px;
 }
 
-.navegacao a:hover:after {
-    width: 100%;
+.parte1-imagem {
+    margin-bottom: -100px;
 }
 
-.navegacao {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
+.parte1-conteudo h1 span { 
+color: rgb(233, 95, 44);
+}
+
+.parte1-conteudo a {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: rgb(233, 95, 44);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #000;
+    color: rgb(66, 45, 31);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.parte1-conteudo a:hover {
+    background-color: rgb(250, 87, 28);
+}
+
+
+.parte1-conteudo {
+    align-self: end;
+    padding-bottom: 70px;
+}
+
+.parte1 h1 {
+    margin-bottom: 40px;
+    font-size: 64px;
+}
+
+.parte1 p {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: gray;
+}
+
+.parte1 img {
+    height: 100%;
+
+object-fit: cover;}
+
+.efeito-vazado {
+    height: 120px;
+    
 }

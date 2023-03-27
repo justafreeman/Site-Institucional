@@ -1,0 +1,51 @@
+.header-background {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: auto 20px auto 20px;
+    gap: 20px;
+}
+
+.img-fenix {
+    width: 30%;
+    margin-left: 40px;
+    position: relative;
+    max-width: 60;
+    max-height: 60;
+}
+
+.navegacao a {
+    color: white;
+    font-size: large;
+    display: inline;
+    position: relative;
+    font-size: 30px;
+}
+
+.navegacao a::after {
+content: "";
+display: block;
+height: 2px;
+background-color: orangered;
+width: 0%;
+transition: 0.4s;
+position: absolute;
+}
+
+.navegacao a:hover:after {
+    width: 100%;
+}
+
+.navegacao {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}

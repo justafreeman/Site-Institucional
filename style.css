@@ -1,97 +1,17 @@
-body {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    color: white;
-    
-}
+@import "./css/reset.css";
+@import "./css/componentes.css";
 
-ul {
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-}
+@import "./css/tipografia.css";
+@import "./css/cores.css";
 
-a {
-    text-decoration: none;
-    color: white;
-    
-}
+/* Navegação do Site */
 
-.header-background {
-    background-color: #000;
-}
+@import "./css/header.css";
 
+/* Pagina index */
 
-nav {
-    display: inline-block;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 0px;
-    text-align: center;
-}
+@import "./css/index.css";
 
-.header-menu {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    width: 100%;
-    
-}
+/* Pagina index */
 
-.itemMenu {
-
-    padding-right: 100px;
-    border: 10px;
-    border-radius: 20px;
-    
-}
-
-.mainPage {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    align-items: center;
-    margin: 10px 100px;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-}
-
-.text {
-
-    align-self: center;
-}
-
-.item1 {
-    object-fit: cover;
-    height: 100%;
-}
-
-.item2 {
-    display: grid;
-
-}
-
-p {
-    margin: 0px;
-    padding: 0px;
-}
-
-.header-img {
-    width: 100px;
-}
-
-/* #linha-vertical {
-    height: 470px;
-    border-right: 3px solid red;
-    position: absolute;
-    right: 769px;
-} */
-
-.mainPageImage {
-    border-right: red 3px solid;
-    
-}
+@import "./css/servicos/servicos-lista.css";
